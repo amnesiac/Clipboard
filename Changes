@@ -5,6 +5,7 @@ changes:
 - OS X/darwin driver now removes \r characters from buffers containing it.
 - Slurping mechanism from pbpaste uses a do {} block instead of join ''.
 - IO::All dependency was removed from Pb.pm
+- Applied fix for RT 43241
 ---
 version: 0.09
 date:    Thu Oct 20 09:30:45 CDT 2005
